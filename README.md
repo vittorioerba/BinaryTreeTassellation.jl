@@ -9,6 +9,9 @@ Start a Julia REPL, and run
 ``` 
     ] add https://github.com/vittorioerba/BinaryTreeTassellation.jl
 ```
+
+The code is documented through docstrings in the code itself.
+
 ## Motivation
 
 I wrote this code for the following reasons:
