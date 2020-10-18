@@ -1,0 +1,13 @@
+name = "BinaryTreeTassellation"
+uuid = "a1bd8c7a-885e-482b-815a-8e3a7dae0535"
+authors = ["Vittorio Erba <vittorio.erba@posteo.net> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
