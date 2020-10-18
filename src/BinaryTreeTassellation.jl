@@ -5,7 +5,7 @@ using Random
 
 export Tile, TileLeaf, TileNode
 export base, height, rescale, rescale!, size
-export paint_tree
+export paint_tree, palette_*
 
 include("Tile.jl")
 include("palettes.jl")

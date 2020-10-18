@@ -52,7 +52,8 @@ function paint_tree((b,h), n, file; size=500, palette=palette_StampingItOut)
     setline(1)
     for i in 0:b-1, j in 0:h-1
         start = (size*i,size*j)
-        tile = rescale!((size, size),generate_tree(n))
+        orient = rand(Float64) < 0.5 ? H : V
+        tile = rescale!((size, size),generate_tree(n; orientation = orient))
         draw(tile; origin=start, palette=palette)
     end
     finish()
