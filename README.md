@@ -1,6 +1,14 @@
 # BinaryTreeTassellation
 
 
+## Installation
+
+To install the package to your local machine, you can use Julia's package manager [Pkg,jl](https://github.com/JuliaLang/Pkg.jl).
+Start a Julia REPL, and run
+``` 
+    ] add https://github.com/vittorioerba/BinaryTreeTassellation.jl
+```
+
 ## Motivation
 
 I wrote this code for the following reasons:
